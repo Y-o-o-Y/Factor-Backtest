@@ -1,3 +1,37 @@
 ## Open in Colab
 
 https://colab.research.google.com/github/Y-o-o-Y/Factor-Backtest/blob/main/Factor_backtest.ipynb
+
+
+
+資料準備
+Stock pool: 864 tickers
+單因子測試
+中性化: Market (不另外做行業中性是因為避免標籤偏見
+起始資金: 10k
+排名梯子圖 (理想的情況會從 Q5 往下排到Q1，這樣剛好符合做多高排名做空低排名)
+ 
+ 
+Alpha 信號多因子權種合成
+	等權重
+ 
+	Multiplicative Weight (online learning)
+ 
+ 
+投資組合風險優化
+Ledoit-Wolf Shrinkage
+Solver: OSQP
+調整頻率: 月
+
+Equal Weight
+ 
+歸因分析 (含常數項)
+PCA top 5 components
+
+
+
+ 
+ 
+
+Alpha (殘差) 統計檢定 (含常數項)
+ 
