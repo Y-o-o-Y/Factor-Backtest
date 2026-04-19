@@ -1,3 +1,6 @@
+Open in Colab:
+https://colab.research.google.com/github/Y-o-o-Y/Factor-Backtest/blob/main/Factor_backtest.ipynb
+
 ## 資料準備
 Stock pool: 864 tickers
 ## 單因子測試
